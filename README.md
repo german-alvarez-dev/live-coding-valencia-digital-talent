@@ -48,16 +48,30 @@ Este es el aspecto que debería tener tu chart:
 
 #### Iteración 3: comparativas generales 
 
-Para esta iteración tendrás que 
+Para esta iteración tendrás que renderizar tres gráficos en los IDs `chart2`, `chart3` y `chart4` del HTML. Es por ello que necesitarás crear tres funciones, una para cada gráfico. 
 
-El HTML está preparado para renderizar el primer gráfico sobre el ID `chart1`. Esto lo harás en la función `printCaloriesChart`, que ya está creada. Este primer gráfico de tipo `bar` compara las calorías de los seis primeros alimentos. Para ello, tendrás que enviar a la función los otros tres restantes, y hacer uso de la propiedad `name` y `kcal` de cada alimento para componer su objeto de datos. 
+Estos son los pasos:
+1. Crea tu función para renderizar el chart y envíale los datos de los mismos desde la función `printFoodsCharts`, tal y como hicimos para la función `printCaloriesChart`.
+2. En cada función de renderizado, crea un chart de tipo `doughnut` con un objeto de datos donde las `labels` sean los nombres de cada alimento, y los `data` sean sus proteínas, grasa y calcio, respectivamente. 
 
-Este es el aspecto que debería tener tu chart:
+Las tres funciones son casi idénticas, por lo que comienza trabajando en la primera y replícala una vez terminada para crear las otras dos restantes. Solo tendrás que modificar la propiedad de proteínas, grasa y calcio.
 
-<img width="1326" alt="image" src="https://user-images.githubusercontent.com/46670724/162581797-d3321103-2c10-4543-8d1e-721b9a5bc5a9.png">
-
-
+Este es el aspecto que debería tener tus charts:
 
 <img width="1326" alt="image" src="https://user-images.githubusercontent.com/46670724/162582046-be19316a-c2e8-46d4-850e-0613485540c7.png">
 
+#### Iteración 4: comparativa combinada  
+
+El HTML está preparado para renderizar el último gráfico sobre el ID `chart5`. Crea una función para ello e incluye en su objeto `data` dos `datasets` diferentes: uno para los datos calóricos y otro para los datos protéicos. 
+
+Este ejemplo es similar al último que realizamos en el evento, excepto porque no es necesario modificar el `type` de ninguno de los `datasets`.
+
+Este es el aspecto que debería tener tu chart:
+
 <img width="1326" alt="image" src="https://user-images.githubusercontent.com/46670724/162581825-3ea88e7d-a6f7-4f08-a7e8-3ad5d63caa35.png">
+
+
+#### Envíame tu trabajo
+
+Envíame tu resolución __antes del lunes 18 de abril__ o bien a través de un repositorio de Github, o bien a través de un servicio como Google Drive si no tienes conocimientos de GIT. 
+
