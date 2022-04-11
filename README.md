@@ -75,7 +75,7 @@ Este es el aspecto que debería tener tu chart:
 
 Envíame tu resolución __antes del lunes 18 de abril__ o bien a través de un repositorio de Github, o bien a través de un servicio como Google Drive si no tienes conocimientos de GIT. 
 
-Puedes remitirme el enlace a mi email: german.alvarez.sanchez@gmail.com
+Puedes remitirme el enlace a mi email: german.alvarez@ironhack.com
 
 ¡Ánimo!
 
