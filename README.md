@@ -32,14 +32,14 @@ Resolverás el reto en el directorio `challenge` de este repositorio donde encon
 - Archivo `script.js` en el directorio `js`, donde te he dejado los primeros pasos ya desarrollados:
   - Líneas 1-2: configuraciones por defecto para el color de texto de todos tus charts.
   - Líneas 5-7: llamda a la API de alimentos y traspaso de datos a la función `printFoodsCharts`
-  - Líneas 20-26: función `printFoodsCharts`, desde la que enviaremos los alimentos a las funciones que renderizarán cada gráfico. Te dejo, a modo de ayuda, los datos de los tres primeros alimentos ya almacenados en variables y enviados como argumentos a la primera función.
-  - Líneas 20-26: función `printCaloriesChart`, la primera de las funciones que necesitarás para renderizar los charts, que recibe los tres primeros alumentos y donde te he dejado comentados tres mensajes de consola que te servirán de ayuda. Puedes descomentarlos quitando las `//` que les preceden, y verlos en el navegador, en la consola de desarrollo (botón derecho -> inspeccionar -> pestaña Console).
+  - Líneas 11-16: función `printFoodsCharts`, desde la que enviaremos los alimentos a las funciones que renderizarán cada gráfico. Te dejo, a modo de ayuda, los datos de los tres primeros alimentos ya almacenados en variables y enviados como argumentos a la primera función.
+  - Líneas 20-26: función `printCaloriesChart`, la primera de las funciones que necesitarás para renderizar los gráficos. Ya recibe los tres primeros alimentos, y te he dejado comentados tres mensajes de consola que te servirán de ayuda. Puedes descomentarlos quitando las `//` que les preceden, y verlos en el navegador, en la consola de desarrollo (botón derecho -> inspeccionar -> pestaña Console).
 
 Analiza este entorno de trabajo y haz las pruebas pertinentes para asegurarte que tienes el control.
 
 #### Iteración 2: comparativa calórica 
 
-El HTML está preparado para renderizar el primer gráfico sobre el ID `chart1`. Esto lo harás en la función `printCaloriesChart`, que ya está creada. Este primer gráfico de tipo `bar` compara las calorías de los seis primeros alimentos. Para ello, tendrás que enviar a la función los otros tres restantes, y hacer uso de la propiedad `name` y `kcal` de cada alimento para componer su objeto de datos. 
+El HTML está preparado para renderizar el primer gráfico sobre el ID `chart1`. Esto lo harás en la función `printCaloriesChart`, que ya está creada. Este primer gráfico de tipo `bar` compara las calorías de los __seis__ primeros alimentos. Para ello, tendrás que enviar a la función los otros tres restantes, y hacer uso de la propiedad `name` y `kcal` de cada alimento para componer su objeto de datos. 
 
 Este es el aspecto que debería tener tu chart:
 
@@ -74,4 +74,8 @@ Este es el aspecto que debería tener tu chart:
 #### Envíame tu trabajo
 
 Envíame tu resolución __antes del lunes 18 de abril__ o bien a través de un repositorio de Github, o bien a través de un servicio como Google Drive si no tienes conocimientos de GIT. 
+
+Puedes remitirme el enlace a mi email: german.alvarez.sanchez@gmail.com
+
+¡Ánimo!
 
