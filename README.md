@@ -21,7 +21,7 @@ Todos los materiales del evento se encuentran en este mismo repositorio. Para de
 ### 3.- Challenge
 ¿Te animas a enfrentarte por tu cuenta a un reto de creación de gráficos con [ChartJS](https://www.chartjs.org/)? Dale!🔥 🔥
 
-Aquí tienes todos los detalles que necesitas para ello, así como las instrucciones para enviarme tu resolución __antes del lunes 18 de abril__ y optar a una beca extendida del 5%, acumulable a las disponibles por parte de nuestros partners valencianos. Para resolverlo, puedes usar tu editor de código favorito o [Visual Studio Code](https://code.visualstudio.com/download), que es el software con el que desarrollé el producto.
+Aquí tienes todos los detalles que necesitas para ello, así como las instrucciones para enviarme tu resolución __antes del martes 19 de abril__ y optar a una beca extendida del 5%, acumulable a las disponibles por parte de nuestros partners valencianos. Para resolverlo, puedes usar tu editor de código favorito o [Visual Studio Code](https://code.visualstudio.com/download), que es el software con el que desarrollé el producto.
 
 Trabajaremos con una API diferente, de alimentos, que puedes ver [en este enlace](https://multiapi-app.herokuapp.com/foods). Una vez hayas revisado tanto la grabación como mis códigos, estás list@ para comenzar. 
 
@@ -73,7 +73,7 @@ Este es el aspecto que debería tener tu chart:
 
 #### Envíame tu trabajo
 
-Envíame tu resolución __antes del lunes 18 de abril__ o bien a través de un repositorio de Github, o bien a través de un servicio como Google Drive si no tienes conocimientos de GIT. 
+Envíame tu resolución __antes del martes 19 de abril__ o bien a través de un repositorio de Github, o bien a través de un servicio como Google Drive si no tienes conocimientos de GIT. 
 
 Puedes remitirme el enlace a mi email: german.alvarez@ironhack.com
 
